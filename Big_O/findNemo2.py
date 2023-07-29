@@ -18,4 +18,4 @@ def find_nemo(array: list) -> float:
 
 
 # find_nemo(nemo)
-find_nemo(large)
+find_nemo(large)  # O(n)  -> Linear Time # n = no. of input
