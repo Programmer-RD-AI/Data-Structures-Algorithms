@@ -6,5 +6,6 @@ Rules
 - Remove Constants
   - O(1+n/2+100) -> O(n)
 - Different terms for Inputs
-  - 
+  - there can be different terms for different inputs, so if its nested then its * and if not then its addition
 - Drop Non Dominants
+  - We get the biggest variable ex O(n+n^2) -> O(n^2) becz n is smaller
