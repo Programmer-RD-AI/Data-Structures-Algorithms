@@ -1,6 +1,13 @@
-# [0,3,4,31] + [4,6,30] -> [0,3,4,4,6,30,31]
-def merge_sorted_arrays(array1: list, array2: list):
-    return sorted(array1.extend(array2))
+class Solution:
+    def twoSum(self, nums, target: int) -> int:
+        for num in range(len(nums)):
+            print(nums)
+            nums_copy = nums.copy()
+            del nums_copy[num]
+            for n in range(len(nums_copy)):
+                if (nums_copy[num] + nums[n]) == target:
+                    return [num, n]
+        return [None, None]
 
 
-print(merge_sorted_arrays([0, 3, 4, 31], [4, 6, 30]))
+print(Solution().twoSum([3, 3], 6))
