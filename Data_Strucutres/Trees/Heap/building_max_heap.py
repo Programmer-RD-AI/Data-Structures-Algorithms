@@ -16,3 +16,8 @@ def build_max_heap(a):
     heap_size = len(a)
     for i in range(heap_size // 2, 0, -1):
         largest, a, heap_size, i = max_heapify(a, heap_size, i)
+
+
+
+
+print(lex("fsg"))
