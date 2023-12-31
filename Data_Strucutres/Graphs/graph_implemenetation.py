@@ -22,7 +22,6 @@ class Graph:
 
 g = Graph()
 g.addVertex("0")
-g.showConnections()
 g.addVertex("1")
 g.addVertex("2")
 g.addVertex("3")
