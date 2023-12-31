@@ -40,3 +40,7 @@ Weighted - Values in Edges
 Cyclic - Where we nodes are interconnected and we can go from 1 node and back to that same node, a circular graph
 Acyclic - Where we cant go from 1 node back to the same node
 
+# Review
+
+Pros -> Relationships
+Cons - Scaling is hard
