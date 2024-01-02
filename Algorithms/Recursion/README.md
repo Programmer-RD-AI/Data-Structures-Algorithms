@@ -1,6 +1,6 @@
 # Introduction
 
-Recursion isnt technically an algorithm, but more of an concept that is used within algorithms (and a lot!)
+Recursion isn't technically an algorithm, but more of an concept that is used within algorithms (and a lot!)
 One of the most popular topics in interviews
 Recursion is when a function calls itself
 
