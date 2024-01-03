@@ -24,3 +24,5 @@ There are many ways we can sort things and with small differences there is a lot
 - Insertion Sort
 - Merge Sort
 - Counting Sort
+
+[Visualize Sorting Algorithms](https://www.toptal.com/developers/sorting-algorithms)
