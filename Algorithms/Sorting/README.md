@@ -12,4 +12,15 @@ Algorithms Covered:
 
 # Issue with `sort()`
 
+There are many ways we can sort things and with small differences there is a lot to be taken into consideration.
+
 # Sorting Algorithms
+
+- Radix Sort
+- Quick Sort
+- Heap Sort
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Counting Sort
