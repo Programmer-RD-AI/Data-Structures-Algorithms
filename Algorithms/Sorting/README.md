@@ -55,3 +55,10 @@ Really good due to divide and concur, Time complexity is always guaranteed to be
 ## Quick Sort
 
 Better than quick sort..? Only one downside is the worst case of O(n^2). If we are worried about the worst case scenario then we would rather use merge sort
+
+# Review
+
+Most of the time when talking about sorting algorithms its mostly O(n log (n))
+Quick Sort use when the average case performance matters more than the worst case performance
+Merge sort on the other hand is great because it is always has the time complexity, but the space complexity is a little bit higher its worth it
+Insertion, Selection, Bubble are useful to use when you are just using them in small pet or so projects, but in real life you will most probably be using the programming languages or framework
