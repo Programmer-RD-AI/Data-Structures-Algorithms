@@ -33,3 +33,25 @@ A sorting algorithm is said to be stable if two objects with equal keys appear i
 In an unstable sort algorithm, straw or spork may be interchanged, but in a stable one, they stay in the same relative positions
 
 [More Info](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
+
+# Which Sort is Best?
+
+## Insertion Sort
+
+Few items only, or items are mostly sorted
+
+## Bubble Sort
+
+Extremly unlikely to be used in the real world
+
+## Selection Sort
+
+Same as bubble sort, and its wont be used ever, and it is used for teaching sorting
+
+## Merge Sort
+
+Really good due to divide and concur, Time complexity is always guaranteed to be O(n log(n)). Use if time complexity is the biggest concern. But for space complexity it isnt the best.
+
+## Quick Sort
+
+Better than quick sort..? Only one downside is the worst case of O(n^2). If we are worried about the worst case scenario then we would rather use merge sort
