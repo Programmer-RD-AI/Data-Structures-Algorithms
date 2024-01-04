@@ -26,3 +26,10 @@ There are many ways we can sort things and with small differences there is a lot
 - Counting Sort
 
 [Visualize Sorting Algorithms](https://www.toptal.com/developers/sorting-algorithms)
+
+# Stable vs Unstable Algorithms
+
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.
+In an unstable sort algorithm, straw or spork may be interchanged, but in a stable one, they stay in the same relative positions
+
+[More Info](https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
