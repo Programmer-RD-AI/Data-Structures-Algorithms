@@ -28,3 +28,4 @@ This is where we cache the return value of a function based on its parameters, a
 
 # Review
 
+One other way which is called bottom up approach because we start from the simplest solution to the biggest problem.
