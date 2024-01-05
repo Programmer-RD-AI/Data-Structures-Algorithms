@@ -13,9 +13,9 @@ We need to go deep as possible and then start going to the right until the trave
 
 ## Implementation methods
 
-//       9
-//    4     20
-//   1 6  15  170
+// 9
+// 4 20
+// 1 6 15 170
 PreOrder - [9,4,1,6,20,15,170] // Used to recreate trees
 InOrder - [1,4,6,9,15,20,170]
 PostOrder - [1,6,4,15,170,20,9]
@@ -36,3 +36,19 @@ If an value is in the top of the tree then this is useful because this gets to e
 
 Less Memory, Does Path Exist?: Pros
 Can Get Slow: Cons
+
+# Graph Traversals
+
+[Visual Graph Traversal](https://visualgo.net/en/dfsbfs)
+BFS - Shortest Path
+DFS - Check to see if something exists
+
+## BFS
+
+The unique thing is that it lands it self to be able to find the shortest path between certain nodes. Used in peer to peer networks, google maps.
+
+## DFS
+
+# Dijkstra + Bellman Ford Algorithms
+
+# Review
