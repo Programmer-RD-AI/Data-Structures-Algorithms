@@ -49,6 +49,28 @@ The unique thing is that it lands it self to be able to find the shortest path b
 
 ## DFS
 
+This is the same concept of solving a maze, it is exactly the same. That is why we use recursion, the concept of backtracking is harder to do with iterations, and it is build in the fundamentals of recursion
+
 # Dijkstra + Bellman Ford Algorithms
 
-# Review
+Allow us to find the shortest path between 2 nodes of a weighted graph.
+
+## Dijkstra
+
+Take less time than bellman ford
+Worst Case: O(e log v)
+
+[Dijkstra's algorithm in 3 minutes](https://www.youtube.com/watch?v=_lHSawdgXpI&ab_channel=MichaelSambol)
+[Graph Data Structure 4. Dijkstra’s Shortest Path Algorithm](https://www.youtube.com/watch?v=pVfj6mxhdMw&ab_channel=ComputerScience)
+[Dijkstra's Shortest Path Algorithm | Graph Theory](https://www.youtube.com/watch?v=pSqmAO-m7Lk&ab_channel=WilliamFiset)
+[How Dijkstra's Algorithm Works](https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree)
+[Implement Dijkstra's Algorithm](https://www.youtube.com/watch?v=XEb7_z5dG3c&ab_channel=NeetCodeIO)
+
+## Bellman Ford
+
+Can accommodate negative weights
+Worst Case: O(n^2)
+
+[Bellman-Ford in 4 minutes — Theory](https://www.youtube.com/watch?v=9PHkk0UavIM&ab_channel=MichaelSambol)
+[Bellman-Ford in 5 minutes — Step by step example](https://www.youtube.com/watch?v=obWXjtg0L64&ab_channel=MichaelSambol)
+[Bellman Ford Algorithm | Shortest path & Negative cycles | Graph Theory](https://www.youtube.com/watch?v=lyw4FaxrwHg&ab_channel=WilliamFiset)
