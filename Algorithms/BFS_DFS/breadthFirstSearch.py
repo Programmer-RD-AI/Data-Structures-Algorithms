@@ -105,9 +105,18 @@ def traverseInOrder(node, data):
 def traversePreOrder(node, data):
     data.append(node.value)
     if node.left:
-        traverseInOrder(node.left, data)
+        traversePreOrder(node.left, data)
     if node.right:
-        traverseInOrder(node.right, data)
+        traversePreOrder(node.right, data)
+    return data
+
+
+def traversePostOrder(node, data):
+    if node.left:
+        traversePostOrder(node.left, data)
+    if node.right:
+        traversePostOrder(node.right, data)
+    data.append(node.value)
     return data
 
 
